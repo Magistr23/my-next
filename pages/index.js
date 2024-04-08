@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import { CardImg } from "./cardImg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,7 +38,34 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-        <CardImg />
+        <Image
+            src="/git_force.jpg"
+            alt="Vercel Logo"
+            width={400}
+            height={400}
+            priority
+        />
+                <Image
+            src="/jobs.jpg"
+            alt="Vercel Logo"
+            width={400}
+            height={400}
+            priority
+        />
+                <Image
+            src="/printer.jpg"
+            alt="Vercel Logo"
+            width={400}
+            height={400}
+            priority
+        />
+                <Image
+            src="/program.jpg"
+            alt="Vercel Logo"
+            width={400}
+            height={400}
+            priority
+        />
         </div>
 
         {/* <div className={styles.grid}>
